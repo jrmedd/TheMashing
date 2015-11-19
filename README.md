@@ -1,15 +1,20 @@
 ## About
+
+### The short version
 Originally created by me (James Medd) for Digital Media Labs 2015. The Max patch is a bit of a mess as I threw it together in just a couple of evenings, I'll iron out the creases from here, and hopefully add a few more collaborative modes.
 
 * http://jamesmedd.co.uk
 * http://digitalmedialabs.org
+
+### The long version
+I wrote at length(ish) about [The Mashing on my blog](http://blog.jamesmedd.co.uk/post/130502764192/the-mashing).
 
 ### In action
 
 [See it in action here.](https://www.youtube.com/watch?v=6Se6G2qGbao)
 
 ## Usage
-You'll need [Max](http://cycling74.com) if you're going to edit and use the source patches. If you just want to play the game, a standalone application (currently OS X only) [is available here](http://jamesmedd.co.uk/games/TheMashing.zip). Open up **mashing.maxpat**, all of the other patches are abstractions. I'm hoping to abstract more of these as I go to make it more git-friendly. 
+You'll need [Max](http://cycling74.com) if you're going to edit and use the source patches. If you just want to play the game, a standalone application (currently OS X only) [is available here](http://jamesmedd.co.uk/games/TheMashing.zip). Open up **mashing.maxpat**, all of the other patches are abstractions. I'm hoping to abstract more of these as I go to make it more git-friendly.
 
 ### Hooking up your Arduino
 Plug up to 5 buttons per team into your Arduino sequentially e.g. in pins 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. Teams will be split after 5 buttons, so if you're just using 2 buttons you could insert them into 3 and 8.
