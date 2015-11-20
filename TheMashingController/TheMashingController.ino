@@ -4,7 +4,7 @@ CREATED BY JAMES MEDD FOR DIGITALMEDIALABS.ORG
 SEPTEMBER 2015
 #############################################*/
 
-int numInputs = 10;//change this for the number of buttons you're using
+int numInputs = 10;//leave this as it is, as the Max patch currently expects 10 values!
 int firstInputPin = 3;//change this depending on where your first button is plugged in
 int lastInputPin = numInputs + firstInputPin;
 

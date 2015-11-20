@@ -1,10 +1,7 @@
 ## About
 
 ### The short version
-Originally created by me (James Medd) for Digital Media Labs 2015. The Max patch is a bit of a mess as I threw it together in just a couple of evenings, I'll iron out the creases from here, and hopefully add a few more collaborative modes.
-
-* http://jamesmedd.co.uk
-* http://digitalmedialabs.org
+Originally created [by me](http://jamesmedd.co.uk) for [Digital Media Labs 2015](http://digitalmedialabs.org). It's a straightforward button-mashing game that went from idea to product in about 6 days (or evenings). The Max patch is a bit of a mess as I threw it together in just a couple of sittings, I'll iron out the creases from here, and hopefully add a few more collaborative modes.
 
 ### The long version
 I wrote at length(ish) about [The Mashing on my blog](http://blog.jamesmedd.co.uk/post/130502764192/the-mashing).
@@ -22,6 +19,12 @@ Plug up to 5 buttons per team into your Arduino sequentially e.g. in pins 3, 4, 
 Upload **TheMashingController.ino** to your Arduino. If your pins go LOW (i.e. to ground) when pressed, add a '!' (without quotes) before the digitalRead() in the main loop like this: '!digitalRead(i)'.
 
 Look at https://www.arduino.cc/en/Tutorial/Button if you're unsure how to connect up your buttons!
+
+### Boxes
+
+The **caseplans.svg** file contains vectors for use with a laser cutter and a 3mm thick material. See below:
+
+![The Mashing Boxes](http://jamesmedd.co.uk/images/MashingBoxes.png)
 
 ### Fonts
 
