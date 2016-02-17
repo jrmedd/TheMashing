@@ -1,3 +1,5 @@
+**CONSIDER THIS VERSION OF *THE MASHING* DEPRECATED. DEVELOPMENT IS CONTINUING AS A PART OF THE [AWKWARD ARCADE](http://awkwardarcade.co.uk) AND [HAS BEEN PORTED TO CHROMIUM](https://github.com/jrmedd/TheMashingWeb).**
+
 ## About
 
 ### The short version
